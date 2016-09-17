@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">微信录音通话界面</string>
+    <string name="dialog_normal">手指上滑,取消发送</string>
+    <string name="dialog_too_short">录音时间太短</string>
+    <string name="dialog_tocancel">松开手指,取消发送</string>
+    <string name="state_normal">按住说话</string>
+    <string name="state_recoding">松开结束</string>
+    <string name="want_cancel">松开手指,取消发送</string>
+</resources>

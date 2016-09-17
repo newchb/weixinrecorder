@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.item.weixinrecoder.MainActivity">
+
+    <ListView
+        android:divider="@null"
+        android:id="@+id/recoder_lv"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"></ListView>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <widget.Recode_Button
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="50dp"
+            android:minHeight="0dp"
+            android:layout_marginRight="50dp"
+            android:textColor="#727272"
+            android:id="@+id/recoder_btn"
+            android:layout_marginTop="7dp"
+            android:layout_marginBottom="7dp"
+            android:padding="5dp"
+            android:background="@drawable/btn_normal"
+            android:text="@string/state_normal"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#ccc"
+            />
+    </FrameLayout>
+
+
+</LinearLayout>
